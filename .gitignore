@@ -1,0 +1,35 @@
+# build
+/out/
+/build/
+*.zip
+*.pdb
+*.exe
+*.obj
+*.o
+*.dSYM/
+
+# SDL3, cloned by build.sh
+/third_party/
+
+# recompiled code, derived from the game
+/generated/
+
+# the user's own game files
+/assets/
+/iso/
+/extracted/
+
+# runtime files, should the app be run from the repo
+black.toml
+/logs/
+/hdd/
+/shadercache/
+/other_releases.txt
+
+# editors
+.vs/
+.vscode/
+.idea/
+
+# Local temporary folder
+.local
